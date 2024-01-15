@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 1.3rem;
+    padding: 15px;
+    transition: opacity 0.3s;
+}
+
+li:hover {
+    opacity: 0.7;
+}
+
+#navbar-items {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+
+.container-title {
+    position: relative;
+    text-align: center;
+}
+
+#main {
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main {
+    font-size: 7.5rem;
+}
+
+.container-title > p {
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pic {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#features {
+    margin-top: 10%;
+}
+
+.content {
+    margin: 20px;
+    text-align: left;
+    max-width: 400px;
+}
+
+.content > h1 {
+    font-size: 2.5rem;
+}
+
+.skills {
+    background-color: azure;
+    margin-top: 0%;
+}
+
+.skills > h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.project-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ .dot_border {
+    border: 5px black dotted;
+}
+.dot_border:hover {
+    opacity: 0.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+i {
+    margin: 0 10px;
+}
+
+i:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 400px) {
+    .project-content {
+        justify-content: center;
+    }
+}
+
+.centered-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#features {
+    margin-top: 10px;
+}
+
+.content {
+    margin: 20px;
+    max-width: 400px;
+}
+
+.content > h1 {
+    font-size: 2.5rem;
+}
